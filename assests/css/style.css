@@ -1,0 +1,91 @@
+.justify-text {
+    text-align: justify;
+}
+
+.justify-text::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.sliderWrap.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.sliderWrap .slick-slide {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sliderWrap .slick-list {
+    padding: 0;
+}
+
+.sliderWrap .slick-dots {
+    bottom: 2rem;
+}
+
+.sliderWrap .slick-dots li button:before {
+    font-size: 50px;
+    color: #eee;
+}
+
+.sliderWrap .slick-dots li.slick-active button:before {
+    color: #fff;
+    opacity: 1;
+}
+
+.sliderWrap .image {
+    position: relative;
+}
+
+.sliderWrap .slider-text,
+.sliderWrap .slider-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.sliderWrap .slider-overlay {
+    background: #000;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.sliderWrap .slider-text {
+    flex-direction: column;
+    padding: 10rem;
+    z-index: 1;
+}
+
+.sliderWrap .slider-text .slider-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.sliderWrap .slider-text .slider-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.sliderWrap .slider-text .slider-link {
+    background: #991F33;
+    color: #fff;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+}
+
+.sliderWrap .image img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+}
